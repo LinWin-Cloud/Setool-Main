@@ -12,9 +12,21 @@
 3. ssh
 4. unzip
 5. git
-6. python-whois
-7. python-QRcode
-8. python-requests
+6. pip3
+7. python-whois
+8. python-QRcode
+9. python-requests
+
+### 安装依赖项
+1. sudo su
+2. apt install python3
+3. apt install openjdk-18-jdk
+4. apt install openssh-client
+5. apt install unzip
+6. apt install git
+7. pip3 install python3-whois
+
+
 
 # 使用教程
 打开Linux命令行终端 bash 或者 powershell
