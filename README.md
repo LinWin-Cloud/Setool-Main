@@ -24,9 +24,10 @@
 4. apt install openssh-client
 5. apt install unzip
 6. apt install git
-7. pip3 install python3-whois
-
-
+7. apt install python3-pip
+8. pip3 install python-whois
+9. pip3 install qrcode
+10. pip3 install requests
 
 # 使用教程
 打开Linux命令行终端 bash 或者 powershell
