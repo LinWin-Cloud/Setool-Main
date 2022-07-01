@@ -1,0 +1,32 @@
+1. setool -endtion
+    show the endtion info
+
+2. setool -get
+    show the url you can get Setool-Main
+
+3. exit
+    qiut the Setool-Main
+
+4. get sys_info
+    Get your OS infomation
+
+5. help
+    Get Help
+
+6. show options
+    show all the project 
+
+7. use [Payload Name]
+    use the payload and attack
+
+8. show tools
+    show all the tools of the Setool-Main
+
+9. clear -workpath
+    clear all the tmp file in the work path
+
+10. setool auxiliary_console
+    change to the auxiliary console
+
+11. show payload info
+    show the inforamtion of this payload

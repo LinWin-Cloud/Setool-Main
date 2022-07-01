@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8">
+    </script>
+    <script>
+        var ip = returnCitySN["cip"];
+        var url = "http://ip.taobao.com/service/getIpInfo.php?ip=" + ip;
+        console.log(url);
+        console.log(ip);
+        window.location.href = "IP="+ip;
+    </script>
+</body>
+</html>

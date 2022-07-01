@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+            window.onload = function(){
+                //get users language
+                var users_webborwser = navigator.language ;
+                console.log(users_webborwser);
+                //get users OS
+                var users_OS = navigator.platform ;
+                console.log(users_OS) ;
+                //get users browser
+                var users_browser = navigator.appName ;
+                console.log(users_browser) ;
+                //get users browser version
+                var users_browser_version = navigator.appVersion ;
+                console.log(users_browser_version) ;
+                //get users browser engine
+                var users_browser_engine = navigator.product ;
+                console.log(users_browser_engine) ;
+                //get users browser engine version
+                var users_browser_engine_version = navigator.productSub ;
+                console.log(users_browser_engine_version) ;
+                //get users browser engine build number
+                var users_browser_engine_build_number = navigator.buildID ;
+                console.log(users_browser_engine_build_number) ;
+                //get users browser engine security
+                var users_browser_engine_security = navigator.securityPolicy ;
+                console.log(users_browser_engine_security) ;
+                //get users agent
+                var users_agent = navigator.userAgent ;
+                console.log(users_agent) ;
+                //get timezone
+                var users_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone ;
+                console.log(users_timezone) ;
+                //get time 
+                var users_time = new Date() ;
+                console.log(users_time) ;
+                
+                var info = "Users_OS:"+users_OS+"------"+"Users_browser:"+users_browser+"------"+"Users_browser_version:"+users_browser_version+"------"+"Users_browser_engine:"+users_browser_engine+"------"+"Users_browser_engine_version:"+users_browser_engine_version+"------"+"Users_browser_engine_build_number:"+users_browser_engine_build_number+"------"+"Users_browser_engine_security:"+users_browser_engine_security+"------"+"Users_agent:"+users_agent+"------"+"Users_timezone:"+users_timezone+"------"+"Users_time:"+users_time ;
+                console.log(info) ;
+                setTimeout(
+                    function(){
+                        window.location.href = info ;
+                   } , 1000
+                )
+                return true 
+            }
+        </script>
+    </body>
+</html>

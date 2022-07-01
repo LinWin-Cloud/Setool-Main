@@ -1,0 +1,6 @@
+[*]The list of the requests_tools:
+-Java:
+1.URL resolution                  Enter:use url_resolution
+2.Get web page's resources code   Enter:use get_web_code
+3.Get Website Info                Enter:use get_website_info
+============================================================
