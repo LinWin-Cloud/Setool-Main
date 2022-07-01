@@ -1,0 +1,29 @@
+body
+{
+    background-color: black;
+    margin: 20px;
+    padding: 0;
+    color: green;
+}
+p
+{
+    color: green;
+}
+.in
+{
+    width: 300px;
+    height: 30px;
+    background-color: black;
+    color: green;
+    outline: none;
+    border: none;
+    padding: 4px 0px;
+    list-style:2px;
+}
+.getip
+{
+    width: 700px;
+    height: 50px;
+    border: none;
+    background-color: green;
+}

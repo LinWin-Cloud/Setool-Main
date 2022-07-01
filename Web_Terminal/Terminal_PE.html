@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PE_Web Shell</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+        <link href="css/PE_terminal.css" rel="stylesheet" />
+        <script src="./UI_PE/settings.js"></script>
+        <script src="./UI_PE/view.js"></script>
+        <script src="./UI_PE/help.js"></script>
+        <script src="./UI_PE/about.js"></script>
+        <script src="./Window/Terminal_PE.js"></script>
+        <script src="./UI_PE/new_terminal.js"></script>
+        <script src="./UI_PE/renew.js"></script>
+    </head>
+    <body>
+        <div class="topdiv" align="center" id="topdiv">
+            <button class="btn" onmousedown="settings()" id="set">Settings</button>
+            <button class="btn" onmousedown="view()" id="view">view</button>
+            <button class="btn" onmousedown="help()" id="help">Help</button>
+            <button class="btn" onmousedown="about()" id="about">About</button>
+        </div>
+        <div align="center">
+            <iframe src="./tools/command_PE.html" id="iframe"></iframe>
+            <div>
+                <button class="btn1" onmousedown="new_terminal()" id="new">New Terminal</button>
+                <button class="btn1" onmousedown="renew()" id="renew">Renew Terminal</button>
+            </div>
+        </div>
+        <div class="th" id="setth" style="color: green;">
+            <p>Color</p>
+            <button onclick="color_white()">White</button>
+            <button onclick="color_green()">Green</button>
+            <button id="closeset" onclick="close_set_window()">Close</button>
+        </div>
+        <div class="th" id="viewth" style="color: green">
+            <p>View</p>
+            <button onclick="pc_view()">PC view</button>
+            <button onclick="pe_view()">PE view</button>
+            <button onclick="close_view_th()">Close</button>
+        </div>
+        <div class="th" id="helpth" style="color: green;">
+            <iframe src="./config/help.html" style="width: 100%;border: green solid 5px;"></iframe>
+            <button onclick="closehelp()">Close</button>
+        </div>
+        <div id="aboutth" style="color:green;" class="th1">
+            <iframe src="./config/about.html" style="width: 100%;border:green solid 5px;height: 200px;"></iframe>
+            <button onclick="closeabout()">Close</button>
+        </div>
+        <script>
+            var helpth = document.getElementById('helpth') ;
+            console.log(helpth)
+            helpth.style.width = window.innerWidth - 20 + 'px' ;
+            helpth.style.display = 'none' ;
+        </script>
+    </body>
+</html>

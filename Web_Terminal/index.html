@@ -1,0 +1,15 @@
+<script>
+    window.onload = function(){
+    if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) { //phone
+        //PHONE
+        console.log(navigator.userAgent) ;
+        console.log("PE") ;
+        window.location.href = "Web_Terminal/Terminal_PE.html" ;
+    }else{
+        //PC
+        console.log(navigator.userAgent)
+        console.log("PC") ;
+        window.location.href = 'Web_Terminal/Terminal_PC.html' ;
+    }
+    }
+</script>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="css/Terminal.css" rel="stylesheet" />
+        <script src="command.js"></script>
+        <script src="UI_PC/new.js"></script> 
+        <script src="./UI_PC/renew.js"></script>
+        <script src="./UI_PC/maps.js"></script>
+        <script src="page.js"></script>
+        <script src="./UI_PC/settings.js"></script>
+        <script src="./UI_PC/view.js"></script>
+        <script src="./UI_PC/help.js"></script>
+        <script src="./UI_PC/two_terminal.js"></script>
+        <script src="./UI_PC/about.js"></script>
+        <script src="./set.js"></script>
+        <script src="./view.js"></script>
+    </head>
+    <body id="body" style="font-size: 25px;">
+        <div align="center">
+                <div class="rwl" id="rwl">
+                    <button class="btn" id="set" onclick="settings()">Settings</button>
+                    <button class="btn" id="view" onclick="view()">view</button>
+                    <button class="btn" id="help" onclick="help()">help</button>
+                    <button class="btn" id="about" onclick="about()">about</button>
+                </div>
+            <br />
+            <div id="terminal" class="terminal" align="center">
+                <div style="width: 100%;height:20px"></div>
+                <div class="runningterminal" id="running" align="center">
+                    <table style="width: 100%;">
+                        <td>
+                            <iframe src="tools/command.html" id="iframe" class="iframe"></iframe>
+                        </td>
+                        <td>
+                            <div id="mapsdiv">
+                                <iframe id="mapview"></iframe>
+                            </div>
+                        </td>
+                    </table>
+                </div>
+                <div align="left" id="bottomdiv" style="width: 90%;border:green solid 3px">
+                    <button class="btn1" id="new" onmouseover="onnew()">New Terminal</button>
+                    <button class="btn1" id="renew" onmouseover="onrenew()">Renew Terminal</button>
+                    <button class="btn1" id="maps" onmouseover="onmaps()">Baidu Maps</button>
+                    <button class="btn1" id="two" onclick="two_terminal()">Two Terminal</button>
+                </div>
+            </div>
+        </div>
+        <div class="setth" id="setth" align="center">
+            <div style="width: 80%;color: green;height: auto;">
+                <div align="left">
+                    <p>Set Color</p>
+                    <button class="setbtn" onclick="set_white()">White</button>
+                    <button class="setbtn" onclick="set_green()">Green</button>
+                    <p>Set Font</p>
+                    <button class="setbtn">25px</button>
+                    <button class="setbtn">20px</button>
+                    <button class="setbtn">16px</button>
+                    <div style="width: 100%;height:40px"></div>
+                    <button style="width: 220px;" onclick="var a=document.getElementById('setth').style.display='none'">Close</button>
+                </div>
+            </div>
+        </div>
+        <div class="setth" id="viewth" align="center">
+            <div style="width: 80%" align="left">
+                <p style="color: green">View</p>
+                <button style="width: 220px;" onclick="pe_view()">PE View</button>
+                <button style="width: 220px;" onclick="pc_view()">PC View</button>
+                <div style="width: 100%;height:40px"></div>
+                <button style="width: 220px;" onclick="closeviewth()">Close</button>
+            </div>
+        </div>
+        <div class="setth" id="helpth" align="center">
+            <div style="width: 90%" align="left">
+                <iframe class="help" id="helpwindow" src="./config/help.html"></iframe>
+                <button id="closehelpth">Close</button>
+            </div>
+        </div>
+        <div class="setth" id="aboutth" align="center">
+            <div style="width: 90%;" align="left">
+                <iframe class="help" id="aboutwindow" src="config/about.html"></iframe>
+                <button id="closeaboutth">Close</button>
+            </div>
+        </div>
+        <div id="run">
+            
+        </div>
+    </body>
+</html>
