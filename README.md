@@ -5,3 +5,22 @@
 <br />
 <br />动编写勒索信完美辅助了社工等等。使用Java开发，参考了大大小小的企业级别社会工程
 <br />学案例，定制出的一款适用于企业级别的社工测试和攻击的高级命令行工具。
+
+# 依赖项目
+1. python3 
+2. java18
+3. ssh
+4. unzip
+5. git
+6. python-whois
+7. python-QRcode
+8. python-requests
+
+# 使用教程
+打开Linux命令行终端 bash 或者 powershell
+
+注意：不能够使用root运行，如果使用root运行程序会自动给报错
+1. git clone https://github.com/LinWin-Cloud/Setool-Main
+2. cd Setool-Main
+3. javac setool.java
+4. java setool 然后便可以使用
