@@ -37,3 +37,8 @@
 2. cd Setool-Main
 3. javac setool.java
 4. java setool 然后便可以使用
+
+# 更新日志
+1. v1.0.1 发布Setool Linux 2022.1.5
+2. v2.0.1 发布Setool Master 2022.3.5
+3. v3.0.1 发布Setool Main 2022.7.1
