@@ -30,7 +30,7 @@
 10. pip3 install requests
 
 # 使用教程
-打开Linux命令行终端 bash 或者 powershell
+打开Linux命令行终端 bash 或者 Linux powershell
 
 注意：不能够使用root运行，如果使用root运行程序会自动给报错
 1. git clone https://github.com/LinWin-Cloud/Setool-Main
