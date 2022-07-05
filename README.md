@@ -8,6 +8,7 @@
 ## 手动安装Setool Main
 ##### git clone https://github.com/LinWin-Cloud/Setool-Main
 ##### sudo mkdir /opt/Setool-Main
+##### sudo chmod 777 /opt/Setool-Main
 ##### mv Setool-Main/* /opt/Setool-Main
 ##### sudo echo 'cd /opt/Setool-Main && javac setool.java && java setool' > /bin/setoolmain
 
