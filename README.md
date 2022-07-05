@@ -10,6 +10,7 @@
 ##### sudo mkdir /opt/Setool-Main
 ##### sudo chmod 777 /opt/Setool-Main
 ##### mv Setool-Main/* /opt/Setool-Main
+##### sudo echo > /bin/setoolmain
 ### 编写下列脚本到 /bin/setoolmain
 ###### cd /opt/Setool-Main
 ###### javac setool.java
@@ -55,3 +56,4 @@
 5. v3.0.3 2022.7.3 更新配置文件
 6. v3.0.4 2022.7.4 修复配置错误
 7. v3.0.5 2022.7.5 更新项目
+8. v3.0.6 2022.7.5 更新安装文档、脚本
