@@ -10,7 +10,10 @@
 ##### sudo mkdir /opt/Setool-Main
 ##### sudo chmod 777 /opt/Setool-Main
 ##### mv Setool-Main/* /opt/Setool-Main
-##### sudo echo 'cd /opt/Setool-Main && javac setool.java && java setool' > /bin/setoolmain
+### 编写下列脚本到 /bin/setoolmain
+####### cd /opt/Setool-Main
+####### javac setool.java
+####### java setool
 
 # 依赖项目
 1. python3 
