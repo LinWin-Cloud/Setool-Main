@@ -9,7 +9,7 @@
 ##### git clone https://github.com/LinWin-Cloud/Setool-Main
 ##### sudo mkdir /opt/Setool-Main
 ##### mv Setool_Main/* /opt/Setool-Main
-##### sudo echo 'cd /opt/Setool-Main && rm -f *.class'
+##### sudo echo 'cd /opt/Setool-Main && javac setool.java && java setool' > /bin/setoolmain
 
 # 依赖项目
 1. python3 
