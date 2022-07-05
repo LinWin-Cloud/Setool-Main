@@ -6,8 +6,10 @@
 <br />动编写勒索信完美辅助了社工等等。使用Java开发，参考了大大小小的企业级别社会工程
 <br />学案例，定制出的一款适用于企业级别的社工测试和攻击的高级命令行工具。
 ## 手动安装Setool Main
-创建一个
-###### 
+###### git clone https://github.com/LinWin-Cloud/Setool-Main
+###### sudo mkdir /opt/Setool-Main
+###### mv Setool_Main/* /opt/Setool-Main
+######
 
 # 依赖项目
 1. python3 
