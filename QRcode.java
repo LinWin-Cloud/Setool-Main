@@ -38,7 +38,7 @@ public class QRcode
             String Py_Name = "Make_QRcode.py";
             function.Run_Python(Py_Name);
             Make_QRcode();
-            scanner.close();
+            scanner.close(); 
         }
     }
 }
