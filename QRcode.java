@@ -4,7 +4,7 @@ public class QRcode
 {
     public static void main(String[]args) throws Exception
     {
-        System.out.println("[!]Enter 'exit' to exit");
+        System.out.println("[!]Enter 'exit' to exit") ;
         QRcode.Make_QRcode();
     }
     public static void Make_QRcode() throws Exception
