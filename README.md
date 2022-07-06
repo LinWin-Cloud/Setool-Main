@@ -15,6 +15,8 @@
 ###### cd /opt/Setool-Main
 ###### javac setool.java
 ###### java setool
+### 然后每次只需要在终端内输入下列命令便可激活使用
+###### setoolmain
 
 # 依赖项目
 1. python3 
