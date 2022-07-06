@@ -9,7 +9,7 @@ public class auxiliary_console
     public static void auxiliary_console_main() throws Exception
     {
         //users input in this console ...
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); 
         System.out.print("Setool-Main//Auxiliary_Console//");
         String in_options = scanner.nextLine();
         /* Write the log */
