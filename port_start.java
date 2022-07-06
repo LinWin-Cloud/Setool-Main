@@ -13,7 +13,7 @@ public class  port_start{
     public static void port_server(int port , String page , String close) throws Exception{
         System.out.println("[!]Start Http Port: "+port+" on https://localhost:"+port);
         try {
- 
+            Thread.sleep(1000); //sleep 1s
             /*listen the port*/
             ServerSocket ss = new ServerSocket(port);
  
