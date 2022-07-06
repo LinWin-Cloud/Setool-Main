@@ -9,7 +9,7 @@ public class QRcode
     }
     public static void Make_QRcode() throws Exception
     {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); 
         System.out.print("Enter The URL: ");
         String url = scanner.nextLine();
         try
