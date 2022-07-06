@@ -12,7 +12,7 @@ public class search_hacker {
         System.out.print("Setool-Master//Main Console//Search_hacker//");
         String run_command = input.nextLine(); //input the options and run the command
         search_hacker.search(run_command);
-    }
+    } 
     public static void search(String in) throws Exception {
         //all the command in the search_hacker
         if (in.equals("show options")){
@@ -42,7 +42,7 @@ public class search_hacker {
                 use_baidu();
             }
             if (in_search.equals("bing")) {
-                //use bing
+                //use bing 
                 use_bing();
             }
             if (in_search.equals("sogou")) {
