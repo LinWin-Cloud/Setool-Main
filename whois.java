@@ -9,7 +9,7 @@ public class whois
         use_whois();
     }
     public static void use_whois() throws Exception
-    {
+    { 
         try
         {
             //use whois
