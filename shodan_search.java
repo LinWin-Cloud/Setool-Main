@@ -7,7 +7,7 @@ public class shodan_search {
     }
     public static void next() throws Exception{
         shodan_search.shodansearch();
-    }
+    } 
     public static void shodansearch() throws Exception{
         Scanner input = new Scanner(System.in) ;
         System.out.print("Setool-Main//Main Console//Shodan Search//Enter shodan Command:");
