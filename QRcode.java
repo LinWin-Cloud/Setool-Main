@@ -32,6 +32,7 @@ public class QRcode
         {
             //use python code to make qrcode
             //use function
+            System.out.println("Save QRcode: /QRcode");
             String content = url ;
             String name = "QRconfig.txt";
             setool.wirte_file(content, name);
