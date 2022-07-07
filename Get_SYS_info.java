@@ -8,7 +8,7 @@ public class Get_SYS_info {
         System.exit(0);
     }
     public static void Main_Get() throws Exception
-    {
+    { 
         /* first , write the log */
         try
         {
