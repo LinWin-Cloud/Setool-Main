@@ -13,7 +13,7 @@ public class web_page_attack {
         String options = input.nextLine() ;
         if (options.equals("exit")) {
             setool.run_main_function();
-            return;
+            return; 
         }
         if (options.equals("show options")){
             File file = new File("config/web_page_attack") ;
