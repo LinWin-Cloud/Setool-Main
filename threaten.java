@@ -11,7 +11,7 @@ public class threaten {
     {  
         /* input all the value */
         Scanner scanner =  new Scanner(System.in);
-        try
+        try 
         {
             //title
             System.out.print("Enter the title: ");
