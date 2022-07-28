@@ -4,7 +4,7 @@
     "github.com"
   ],
   "registrar": "MarkMonitor, Inc.",
-  "whois_server": "whois.markmonitor.com",
+  "whois_server": "whois.markmonitor.com", 
   "referral_url": null,
   "updated_date": "2020-09-08 09:18:27",
   "creation_date": "2007-10-09 18:20:50",
