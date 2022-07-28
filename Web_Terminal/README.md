@@ -1,5 +1,5 @@
-# web Terminal
-基于Web的高级命令行终端
+# web Terminal for Setool Main
+基于Web的高级命令行终端，本版本包括在Setool Main社会工程学工具包
 <br />
 作者:LinWinCloud
 
