@@ -67,9 +67,7 @@ public class  port_start{
                     pw.println(file_print);
                     pw.flush();
                 }
-                if (socket != null) {
-                    socket.close();
-                }
+                socket.close();
                 fileReader.close();
             }
         } catch (Exception e) {
