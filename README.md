@@ -36,7 +36,7 @@ help 可查看命令
 ### 安装依赖项
 1. sudo su
 2. apt install python3
-3. apt install openjdk-18-jdk
+3. apt install openjdk-11-jdk
 4. apt install openssh-client
 5. apt install unzip
 6. apt install git
@@ -80,3 +80,4 @@ help 可查看命令
 22. v3.2.0 2022.7.25 更新源代码、修复源代码错误、更新配置文件
 23. v3.2.1 2022.9.3 更新源代码、修复http漏洞、更新配置文件、更新版本号码
 24. v3.2.2 2022.9.12 修改文档、README
+25. v3.2.3 2022.10.15 修改错误描述、更新源代码
